@@ -1,0 +1,34 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application ",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "type": "module",
+  "author": "Hemanth",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@parcel/optimizer-svgo": "^2.9.3",
+    "body-parser": "^2.2.0",
+    "core-js": "^3.39.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "fractional": "^1.0.0",
+    "img": "^3.0.3",
+    "math-intrinsics": "^1.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "regenerator-runtime": "^0.14.1",
+    "sass": "^1.81.1"
+  }
+}
